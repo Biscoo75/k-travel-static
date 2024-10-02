@@ -55,22 +55,35 @@
                     <div class="mobile-bg js-mobile-bg"></div>
 
                     <div class="menu js-navList">
-                   <ul class="menu__nav text-dark-1 fw-700 -is-active">
+                       <ul class="menu__nav text-dark-1 fw-700 -is-active">
                         <li>
                           <a href="./index.html">
                             الصفحة الرئيسية
                           </a>
                         </li>
-                        <li>
-                          <a href="./category.html">
-                            رحلات العمرة
+                        <li class="menu-item-has-children">
+                          <a data-barba="">
+                            <span class="ml-10">الحج والعمرة</span>
+                            <i class="icon icon-chevron-sm-down"></i>
                           </a>
+
+                          <ul class="subnav">
+                            <li class="subnav__backBtn js-nav-list-back">
+                              <a href="#"><i class="icon icon-chevron-sm-down"></i> </a>
+                            </li>
+                            <li>
+                              <a href="./category.html">
+                                رحلات العمرة
+                              </a>
+                            </li>
+                            <li>
+                              <a href="./category.html">
+                                رحلات الحج
+                              </a>
+                            </li>
+                          </ul>
                         </li>
-                        <li>
-                          <a href="./category.html">
-                            رحلات الحج
-                          </a>
-                        </li>
+
                         <li>
                           <a href="./services.html">
                             الخدمات
@@ -959,7 +972,7 @@
         <div data-anim-child="slide-up" class="row justify-between items-end">
           <div class="col-auto">
             <div class="sectionTitle -md">
-              <h2 class="sectionTitle__title">رحلات خارج خارج
+              <h2 class="sectionTitle__title">رحلات خارج مصر
               </h2>
               <p class=" sectionTitle__text mt-5 sm:mt-0 text-yellow-1">These popular destinations have a lot to offer
               </p>
